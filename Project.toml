@@ -1,0 +1,24 @@
+name = "ElevationAt"
+uuid = "517baa95-6aa9-49c1-8ff6-3f98d34e877a"
+authors = ["Yu-Chang YANG <yang.yc.allium@gmail.com>"]
+version = "0.0.1"
+
+[deps]
+GeoArrays = "2fb1d81b-e6a0-5fc5-82e6-8e06903437ab"
+Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
+ZipFile = "a5390f91-8eb1-5f08-bee0-b1d1ffed6cea"
+
+[compat]
+Aqua = "0.6"
+GeoArrays = "0.7, 0.8"
+Printf = "1"
+Test = "1"
+ZipFile = "0.9, 0.10"
+julia = "1"
+
+[extras]
+Aqua = "4c88cf16-eb10-579e-8560-4a9242c79595"
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Aqua", "Test"]
